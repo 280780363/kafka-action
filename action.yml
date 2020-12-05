@@ -1,5 +1,5 @@
-name: "Setup Bitnami Kafka"
-description: "Setup Bitnami Kafka"
+name: "Setup Kafka"
+description: "Setup Kafka"
 author: "gucao"
 inputs:
   kafka version:
