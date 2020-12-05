@@ -1,6 +1,9 @@
 name: "Setup Kafka"
 description: "Setup Kafka"
 author: "gucao"
+branding:
+  icon: chevron-right
+  color: green
 inputs:
   kafka version:
     description: "Version of Bitnami Kafka to use"
