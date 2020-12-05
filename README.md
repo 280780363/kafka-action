@@ -2,6 +2,8 @@
 
 This [GitHub Action](https://github.com/features/actions) sets up Bitnami Kafka instance.
 
+Docker images source [bitnami/kafka](https://hub.docker.com/r/bitnami/kafka).
+
 ---------
 ## Usage
 
@@ -9,7 +11,7 @@ See [action.yml](action.yml)
 
 Basic:
 ```yaml
-    - name: Start Bitname Kafka
+    - name: Start Kafka
       uses: 280780363/kafka-action@v1.0
       with:
         kafka version: "latest"
